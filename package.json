@@ -141,7 +141,8 @@
     "os-browserify": "^0.3.0",
     "pako": "^2.1.0",
     "path-browserify": "^1.0.1",
-    "qr-code-styling": "^1.9.2"
+    "qr-code-styling": "^1.9.2",
+    "vercel": "^50.18.1"
   },
   "optionalDependencies": {
     "dmg-license": "^1.0.11",
