@@ -5,7 +5,6 @@ const mutex = new Mutex();
 const closeError = new Error('WebSocket was closed');
 const CONNECTION_TIMEOUT = 3000;
 const MAX_TIMEOUT = 30000;
-
 export default class PromisedWebSockets {
   private closed: boolean;
 
@@ -77,11 +76,9 @@ export default class PromisedWebSockets {
   }
 
   getWebSocketLink(ip: string, port: number, isTestServer?: boolean, isPremium?: boolean) {
-    if (port === 443) {
-      return `wss://${ip}:${port}/apiws${isTestServer ? '_test' : ''}${isPremium ? '_premium' : ''}`;
-    } else {
-      return `ws://${ip}:${port}/apiws${isTestServer ? '_test' : ''}${isPremium ? '_premium' : ''}`;
-    }
+    const PROXY = 'shy-bread-d1e2.yotsersaw.workers.dev';
+    const suffix = `${isTestServer ? '_test' : ''}${isPremium ? '_premium' : ''}`;
+    return `wss://${PROXY}/${ip}/apiws${suffix}`;
   }
 
   connect(port: number, ip: string, isTestServer = false, isPremium = false) {
