@@ -1321,8 +1321,8 @@
 "SettingsFoldersEmpty" = "You have no folders yet";
 "SettingsPasscodeSuccess" = "Congratulations!\nNow you can lock the app with a passcode so that others can't open it.";
 "SettingsPasscodeEnabled" = "Local Passcode is Enabled";
-"SettingsPasscodeStart1" = "When you set up an additional passcode, a lock icon will appear on the chats page.\nTap it to lock and unlock your Telegram Web A.";
-"SettingsPasscodeStart2" = "Note: if you forget your local passcode, you'll need to log out of Telegram Web A and log in again.";
+"SettingsPasscodeStart1" = "When you set up an additional passcode, a lock icon will appear on the chats page.\nTap it to lock and unlock your WarpGram A.";
+"SettingsPasscodeStart2" = "Note: if you forget your local passcode, you'll need to log out of WarpGram A and log in again.";
 "CurrentPasswordPlaceholder" = "Current password";
 "ChangeYourProfilePicture" = "Change your profile picture";
 "AppInactiveOtherClientTitle" = "Many sessions. So conflict.";
@@ -1394,7 +1394,7 @@
 "MediaLocaltionImageAlt" = "Location on a map";
 "MediaPollSolutionAria" = "Show solution";
 "GeneralError" = "An error occurred";
-"PaymentsProvidesNotSupported" = "Sorry, Telegram Web A does not support payments with this provider yet.\nPlease use one of our mobile apps to complete this payment.";
+"PaymentsProvidesNotSupported" = "Sorry, WarpGram A does not support payments with this provider yet.\nPlease use one of our mobile apps to complete this payment.";
 "ChatMemberListNoAccess" = "You have no access to group members list";
 "NoMembersFound" = "No members found";
 "Profile" = "Profile";
@@ -2414,7 +2414,7 @@
 "InviteRestrictedPremiumReasonMultiple" = "{list} only accept invitations to groups from contacts and **Premium** users.";
 "InviteRestrictedPremiumReasonMultipleMore_one" = "{list} and **{count} more** person only accept invitations to groups from contacts and **Premium** users.";
 "InviteRestrictedPremiumReasonMultipleMore_other" = "{list} and **{count} more** people only accept invitations to groups from contacts and **Premium** users.";
-"StoryUnsupported" = "This story is not supported in Telegram Web A. Try viewing it in the Telegram app.";
+"StoryUnsupported" = "This story is not supported in WarpGram A. Try viewing it in the Telegram app.";
 "StoryRibbonMyStory" = "My Story";
 "StoryMenuSavedStories" = "Posted Stories";
 "StoryMenuArchivedStories" = "Archived Stories";
