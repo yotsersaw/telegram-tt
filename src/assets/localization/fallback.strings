@@ -1228,7 +1228,7 @@
 "ConversationViewBot" = "VIEW BOT";
 "ConversationViewPost" = "VIEW POST";
 "ConversationViewChannel" = "VIEW CHANNEL";
-"Telegram" = "Telegram";
+"Telegram" = "WarpGram";
 "ChatListFilterAddToFolder" = "Add to folder...";
 "ChatListUnpinFromTop" = "Unpin from Top";
 "ChatListPinToTop" = "Pin to Top";
