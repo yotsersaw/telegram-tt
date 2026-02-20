@@ -183,13 +183,7 @@ const AuthCode = ({
               ref={qrCodeRef}
               style={`width: ${QR_SIZE}px; height: ${QR_SIZE}px`}
             />
-            <AnimatedIcon
-              tgsUrl={LOCAL_TGS_URLS.QrPlane}
-              size={QR_PLANE_SIZE}
-              className="qr-plane"
-              nonInteractive
-              noLoop={false}
-            />
+            <img src="/logo.png" className="qr-plane" style="width: 54px; height: 54px; border-radius: 50%;" />
           </div>
           {!isQrMounted && <div className="qr-loading"><Loading /></div>}
         </div>
