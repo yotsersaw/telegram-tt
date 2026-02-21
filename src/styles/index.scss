@@ -536,3 +536,14 @@ body:not(.is-ios) {
     animation-duration: 400ms;
   }
 }
+
+
+
+
+
+/* WarpGram custom background */
+#root .bg {
+  background-image: url("../assets/fon.png");
+  background-size: cover;
+  background-position: center;
+}
