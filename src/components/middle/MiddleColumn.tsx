@@ -528,7 +528,7 @@ function MiddleColumn({
       )}
       <div
         className={bgClassName}
-        style={customBackgroundValue ? `--custom-background: ${customBackgroundValue}` : undefined}
+        style="--custom-background: url('../assets/fon.png')"
         data-tauri-drag-region={IS_TAURI && IS_MAC_OS && !(renderingChatId && renderingThreadId) ? true : undefined}
       />
       <div id="middle-column-portals" />
