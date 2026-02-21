@@ -692,14 +692,7 @@ const HeaderMenuContainer: FC<OwnProps & StateProps> = ({
               {oldLang('Call')}
             </MenuItem>
           )}
-          {canCall && (
-            <MenuItem
-              icon="video-outlined"
-              onClick={handleVideoCall}
-            >
-              {oldLang('VideoCall')}
-            </MenuItem>
-          )}
+          {/* WarpGram: video call removed */}
           {canMute && (isMuted ? (
             <MenuItem
               icon="unmute"
