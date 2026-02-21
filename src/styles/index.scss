@@ -547,3 +547,13 @@ body:not(.is-ios) {
   background-size: cover;
   background-position: center;
 }
+
+/* WarpGram force background */
+body #root > .bg,
+body > #root > div > .bg {
+  background-image: url("../assets/fon.png") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: transparent !important;
+}
