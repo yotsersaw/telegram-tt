@@ -383,16 +383,7 @@ const HeaderActions: FC<OwnProps & StateProps> = ({
               iconName="search"
             />
           )}
-          {canCall && (
-            <Button
-              round
-              color="translucent"
-              size="smaller"
-              onClick={handleRequestCall}
-              ariaLabel="Call"
-              iconName="phone"
-            />
-          )}
+          {/* WarpGram: call button removed */}
         </>
       )}
       {!isForForum && Boolean(pendingJoinRequests) && (
