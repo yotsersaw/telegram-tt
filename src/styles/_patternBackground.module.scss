@@ -26,8 +26,8 @@
     background-size: cover;
   }
 
-  :global(html.theme-light) &:not(.customBgImage)::before {
-    background-image: url('../assets/chat-bg-br.png');
+  &:not(.customBgImage)::before {
+    background-image: url('../assets/fon.png');
   }
 
   &:not(.customBgImage).customBgColor::before {
