@@ -8,7 +8,7 @@
   background-position: center;
   background-size: 100% 100%;
 
-  @include mixins.chat-pattern-background("../assets/pattern.svg");
+/* @include mixins.chat-pattern-background removed */
 
   &::before {
     @media (max-width: 600px) {
@@ -17,9 +17,7 @@
     }
   }
 
-  :global(html.theme-light) & {
-    background-image: url('../assets/chat-bg-br.png');
-  }
+  background-image: url("../assets/fon.png"); /* WarpGram custom bg */
 
   @media (max-width: 600px) {
     height: calc(var(--vh, 1vh) * 100);
