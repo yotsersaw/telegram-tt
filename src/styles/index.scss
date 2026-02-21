@@ -557,3 +557,10 @@ body > #root > div > .bg {
   background-position: center !important;
   background-color: transparent !important;
 }
+
+/* WarpGram force accent color */
+:root, html {
+  --color-primary: #00C8D4 !important;
+  --color-primary-rgb: 0, 200, 212 !important;
+  --accent-color: #00C8D4 !important;
+}
