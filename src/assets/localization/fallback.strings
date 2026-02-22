@@ -668,8 +668,8 @@
 "MenuStars" = "My Stars";
 "MenuTon" = "My TON";
 "MenuSendGift" = "Send a Gift";
-"MenuTelegramFaq" = "Telegram FAQ";
-"MenuPrivacyPolicy" = "Privacy Policy";
+"MenuTelegramFaq" = "WarpGram FAQ";
+"MenuPrivacyPolicy" = "Политика конфиденциальности";
 "MenuAskText" = "Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the Telegram FAQ: it has important troubleshooting tips and answers to most questions.";
 "SettingsPerformanceSliderTitle" = "Animation Level";
 "SettingsPerformanceSliderSubtitle" = "Choose the desired animations amount.";
