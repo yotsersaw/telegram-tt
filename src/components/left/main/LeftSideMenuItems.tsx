@@ -136,8 +136,8 @@ const LeftSideMenuItems = ({
     switchPermanentWebVersion('K');
   });
 
-  const handleOpenTipsChat = useLastCallback(() => {
-    openChatByUsername({ username: lang('TelegramFeaturesUsername') });
+  const handleOpenWarpGramChannel = useLastCallback(() => {
+    openChatByUsername({ username: 'WarpGramOfficial' });
   });
 
   const handleBugReportClick = useLastCallback(() => {
@@ -228,9 +228,9 @@ const LeftSideMenuItems = ({
             <MenuSeparator />
             <MenuItem
               icon="help"
-              onClick={handleOpenTipsChat}
+              onClick={handleOpenWarpGramChannel}
             >
-              {lang('MenuTelegramFeatures')}
+              Возможности WarpGram
             </MenuItem>
             <MenuItem
               icon="bug"
